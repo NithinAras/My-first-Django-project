@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Django App</title>
+
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+    <h1>Welcome to Django 🎉</h1>
+    <p>This is my first Django project.</p>
+
+    <button onclick="showMessage()">Click Me</button>
+
+    <script src="{% static 'js/script.js' %}"></script>
+</body>
+</html>
